@@ -25,22 +25,22 @@ This process continues, until the packet reaches the destination.
 
 #### Cases Supported:
 - Three executables mode:
-	- ID 1 sending data to ID 3 via ID 2
-		- ID 3 having MTU lesser than ID 2 MTU
-		- ID 3 having MTU equal or greater MTU than ID 2
-		- ID 2 having MTU lesset than ID 3
-	- Id 3 sending data to ID 1 via ID 2
-		- ID 1 having MTU lesser than ID 2 MTU
-		- ID 1 having MTU equal to greater than ID 2 MTU
-		- ID 2 having MTU lesser than ID 1
-	- ID 1 sending data to ID 2
-	- ID 2 sending data to ID 1
-	- ID 3 sending data to ID 2
-	- ID 2 sending data to ID 3
+	- Node 1 sending data to Node 3 via Node 2
+		- Node 3 having MTU lesser than Node 2 MTU
+		- Node 3 having MTU equal or greater MTU than Node 2
+		- Node 2 having MTU lesset than Node 3
+	- Node 3 sending data to Node 1 via Node 2
+		- Node 1 having MTU lesser than Node 2 MTU
+		- Node 1 having MTU equal to greater than Node 2 MTU
+		- Node 2 having MTU lesser than Node 1
+	- Node 1 sending data to Node 2
+	- Node 2 sending data to Node 1
+	- Node 3 sending data to Node 2
+	- Node 2 sending data to Node 3
 	
 #### Cases Not Supported:
 - Four executable mode or More
-	- ID 1 sending data to ID 4 via 2 hops ID 2 and ID 3
-	- ID 4 sending data to ID 1 via 2 hops ID 3 and ID 2
+	- Node 1 sending data to Node 4 via 2 hops Node 2 and Node 3
+	- Node 4 sending data to Node 1 via 2 hops Node 3 and Node 2
 
 	
