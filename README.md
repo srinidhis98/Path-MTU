@@ -5,11 +5,12 @@ Once the MTU value is got by the hop which sent/forwarded the packet, fragments 
 This process continues, until the packet reaches the destination.
 
 ###### Packet details: (struct packet_data)
-- char string
+- <div style="color: blue">char string
 - Source ID (integer)
 - Destination ID (integer)
 - length of the string
 - MTU (intially while sender sends the packet, it is 0)
+</div>
 
 ###### Table details: (struct table)- like a route table (Hardcoded)
 - Source ID (integer)
